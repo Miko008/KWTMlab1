@@ -7,8 +7,8 @@
 
 int main()
 {
+    //std::cout<<"hello world\n";
     double result;
-    std::cout<<"hello world\n";
     
 #ifdef USE_TRIGONOMETRY_DEGREE
     result = degreemath::cos(45.0);
