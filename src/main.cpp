@@ -1,8 +1,10 @@
 #include <iostream>
-#include <cmath>
+#include "LaborkaConfig.h"
 
 #ifdef USE_TRIGONOMETRY_DEGREE
-#include "trygonometria.h"
+    #include "trygonometria.h"
+#else
+    #include <cmath>
 #endif
 
 int main()
